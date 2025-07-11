@@ -1,6 +1,6 @@
 <template>
   <DefaultLayout>
-    <section class="bg-white pt-20 pb-16 relative overflow-hidden">
+    <section class="bg-white pt-10 pb-10 relative overflow-hidden">
       <div class="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto px-6 lg:px-8 gap-10">
         <!-- Columna izquierda: Texto -->
         <div class="max-w-xl">
