@@ -20,8 +20,30 @@ const messages = {
       cta: 'Create your free account',
       partners: {
         text: 'Google, Meta, X and Pinterest Partner'
+      },
+    },
+    benefits: {
+      title: "Why choose our app?",
+      description: "Thousands of companies are already optimizing their social media with us.",
+      analytics: {
+        title: "Advanced Analytics",
+        description: "View clear metrics and make informed decisions."
+      },
+      scheduler: {
+        title: "Smart Scheduling",
+        description: "Easily schedule content and save time."
+      },
+      team: {
+        title: "Efficient Collaboration",
+        description: "Work with your team from the same platform."
       }
-    }
+    },
+    hero2: {
+      title: "One for all and all in one",
+      subtitle: "A single tool for all social media tasks: for everyone, whatever your skills, knowledge, and resources.",
+      description: "Because we believe that all people, businesses, and companies, no matter their size or budget, deserve to have a prominent place in the digital world in order to connect with their audiences and make their goals a reality.",
+      cta: "Create your free account",
+    },
   },
   es: {
     logo: 'metrora',
@@ -41,8 +63,30 @@ const messages = {
       cta: 'Crea tu cuenta gratis',
       partners: {
         text: 'Socio de Google, Meta, X y Pinterest'
-      }
-    }
+      },
+    },
+    benefits: {
+      title: "¿Por qué elegir nuestra aplicación?",
+      description: "Miles de empresas ya están optimizando sus redes sociales con nosotros.",
+      analytics: {
+        title: "Análisis Avanzado",
+        description: "Visualiza métricas claras y toma decisiones informadas."
+      },
+      scheduler: {
+        title: "Planificación Inteligente",
+        description: "Programa contenido fácilmente y ahorra tiempo."
+      },
+      team: {
+        title: "Colaboración Eficiente",
+        description: "Trabaja con tu equipo desde una misma plataforma."
+      },
+    },
+    hero2: {
+      title: "Uno para todos y todos en uno",
+      subtitle: "Una única herramienta para todas las tareas en redes sociales: para todos, sin importar tus habilidades, conocimientos o recursos.",
+      description: "Porque creemos que todas las personas, negocios y empresas, sin importar su tamaño o presupuesto, merecen tener un lugar destacado en el mundo digital para conectar con su audiencia y hacer realidad sus objetivos.",
+      cta: "Crea tu cuenta gratuita",
+    },
   }
 }
 
@@ -54,3 +98,5 @@ const i18n = createI18n({
 })
 
 export default i18n
+
+

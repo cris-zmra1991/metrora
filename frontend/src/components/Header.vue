@@ -1,5 +1,9 @@
 <template>
-  <header class="w-full bg-gray-900 shadow-sm">
+  <div class="w-full sticky top-0 z-50 bg-gradient-to-r from-yellow-400 to-rose-500 font-extrabold text-black text-sm text-center py-2">
+  NEW: The 2025 Social Ads Study! Insights from +500,000 campaigns.
+  <a href="#" class="underline ml-1">Get your FREE copy!</a>
+  </div>
+  <header class="w-full sticky top-[32px] z-40 bg-gray-900 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
       <!-- Logo -->
       <div class="font-bold text-xl text-white">{{ $t('logo') }}</div>
